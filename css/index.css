@@ -139,12 +139,24 @@
   font-weight: 1000;
   cursor: pointer;
 }
-
+/* icons sector */
+.trusted-icons{
+  display: flex;
+  height: 100px;
+  padding-top:2rem;
+  background-color: #010d35;
+  color: white;
+  font-size: xx-large;
+}
+.icons-selectors{
+  padding-bottom: 1rem;
+}
 /* footer-section */
 .footer {
   background-color: #010d35;
   color: white;
   padding: 60px 50px 20px;
+  font-size: large;
 }
 
 .footer-container {
