@@ -4,30 +4,54 @@
   box-sizing: border-box;
 }
 /* hearder */
-.logo-img{
-    width: 500px;
+.logo-img {
+  width: 500px;
 }
-.login-section{
-    display: flex;
+.login-section {
+  display: flex;
 }
-.login-selector{
-justify-content: center;
-text-align: center;
+.login-selector {
+  justify-content: center;
+  text-align: center;
 }
-.create-section{
-    margin: 2rem;
-    box-shadow: 2rem;
-    background-color: whitesmoke;
+.create-section {
+  margin: 2rem;
+  box-shadow: 2rem;
+  background-color: whitesmoke;
 }
 
 .para-or::after,
-.para-or::before{
-    content:"";
-    flex: 1;
-    border-top: 1px solid rgb(17, 180, 17);
+.para-or::before {
+  content: "";
+  flex: 1;
+  border-top: 1px solid rgb(17, 180, 17);
+}
+.para-or span {
+  padding: 0 auto;
+}
+.backhome-btn {
+  display: flex;
+}
+.home-btn {
+  background-color: white;
+  color: #043bf1;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  border-width: 1px;
+  cursor: pointer;
 
 }
-.para-or span{
-    padding: 0 auto;
-    
+.create-link a{
+    color: green;
+    text-decoration: none;
+}
+.signin-btn{
+    background-color: #043bf1;
+  color: white;
+  border-width: 1px;
+  height: 50px;
+  width: 90px;
+  border-radius: 10px;
+  cursor: pointer;
 }
