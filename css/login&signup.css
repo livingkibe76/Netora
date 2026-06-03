@@ -1,0 +1,33 @@
+* {
+  margin: 0 auto;
+  width: auto;
+  box-sizing: border-box;
+}
+/* hearder */
+.logo-img{
+    width: 500px;
+}
+.login-section{
+    display: flex;
+}
+.login-selector{
+justify-content: center;
+text-align: center;
+}
+.create-section{
+    margin: 2rem;
+    box-shadow: 2rem;
+    background-color: whitesmoke;
+}
+
+.para-or::after,
+.para-or::before{
+    content:"";
+    flex: 1;
+    border-top: 1px solid rgb(17, 180, 17);
+
+}
+.para-or span{
+    padding: 0 auto;
+    
+}
