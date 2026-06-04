@@ -27,21 +27,29 @@
               <input type="password" placeholder="Enter your Password" />
             </div>
             <br />
-            <div><button class="signin-btn">Sign in</button></div>
+            <div><a href="/otp.html"><button class="signin-btn">Sign in</button></a></div>
             <br />
             <div class="para-or">
               <span>Or</span>
             </div>
             <br />
-            <div><p>Dont have An Account? <div class="create-link"><a href="/signup.html" class="create-link">Create One Free</a></p></div></div>
+            <div>
+              Dont have An Account?
+              <div class="create-link">
+                <a href="/signup.html" class="create-link">Create One Free</a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="backhome-btn">
-          <a href="index.html">
-          <button class="home-btn">Back Home</button></a>
+          <a href="index.html"> <button class="home-btn">Back Home</button></a>
         </div>
       </div>
-      
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <script>
+      emailjs.init("9G3cKRoOaLnEf3Q03Ee8i");
+    </script>
   </body>
 </html>
