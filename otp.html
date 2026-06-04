@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verify OTP - Netora</title>
+    <link rel="stylesheet" href="./css/otp.css">
+</head>
+<body>
+
+    <div class="otp-container">
+
+        <div class="otp-card">
+
+            <div class="logo">
+                📡 Netora
+            </div>
+
+            <h1>Email Verification</h1>
+
+            <p>
+                We've sent a 6-digit verification code to your email address.
+                Please enter it below to continue.
+            </p>
+
+            <div class="otp-inputs">
+
+                <input type="text" maxlength="1" class="otp-box">
+                <input type="text" maxlength="1" class="otp-box">
+                <input type="text" maxlength="1" class="otp-box">
+                <input type="text" maxlength="1" class="otp-box">
+                <input type="text" maxlength="1" class="otp-box">
+                <input type="text" maxlength="1" class="otp-box">
+
+            </div>
+
+            <button id="verifyBtn">
+                Verify OTP
+            </button>
+
+            <div class="resend-section">
+
+                <p>
+                    Didn't receive the code?
+                </p>
+
+                <button id="resendBtn">
+                    Resend OTP
+                </button>
+
+            </div>
+
+            <div id="message"></div>
+
+        </div>
+
+    </div>
+
+    <script src="./javascript/otp.js"></script>
+
+</body>
+</html>
