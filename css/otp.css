@@ -14,7 +14,7 @@ body{
     align-items:center;
     background:linear-gradient(
         135deg,
-        #00134f,
+        #010d35,
         #0038a8,
         #00a6ff
     );
@@ -39,10 +39,7 @@ body{
 }
 
 .logo{
-    font-size:32px;
-    font-weight:800;
-    color:#0f2d8c;
-    margin-bottom:20px;
+    
 }
 
 .otp-card h1{
